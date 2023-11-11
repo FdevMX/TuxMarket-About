@@ -339,6 +339,9 @@ header .right {
 
 .feature__text {
     font-size: 0.9rem;
+    text-align: justify;
+    text-justify: inter-word;
+    /* color: #5cadd8; */
 }
 
 .about__details {
@@ -358,8 +361,11 @@ header .right {
 }
 
 .about__details-content p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8rem;
 }
 
 .about__details-content .btn {
@@ -501,6 +507,8 @@ header .right {
 .project__text {
     font-size: 1.1rem;
     margin-bottom: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* TEAM */
@@ -638,6 +646,8 @@ small{
 .testimonial__text {
     opacity: 0.8;
     margin-bottom: 3rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .testimonials__img img {
@@ -1088,6 +1098,13 @@ footer{
     .about__details-content,
     .about__details-img {
         width: 100%;
+    }
+
+    .about__details-content p {
+        font-size: 1rem;
+        text-align: justify;
+        text-justify: inter-word;
+        line-height: 1.6rem;
     }
 
     /* PROJECTS */
